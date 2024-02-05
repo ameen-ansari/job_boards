@@ -1,0 +1,16 @@
+
+
+.job-card {
+    border: 1px solid #e5e7eb; // light gray border
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    .job-info {
+        .title {
+            color: "#0C68FF"; // assuming you have a primary color variable
+        }
+    }
+}

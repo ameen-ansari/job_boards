@@ -1,0 +1,56 @@
+
+
+.footer {
+  background-color: '#fff';
+  color: '#000';
+  padding: 1rem 0;
+
+  .footer-content {
+    h2 {
+      color: "#0C68FF";
+    }
+
+    p {
+      color: darken('#000', 10%);
+    }
+  }
+
+  .footer-newsletter {
+    input {
+      border: 2px solid lighten('grey', 10%);
+      @include transition(all 0.3s ease);
+      
+      &:focus {
+        border-color: 'grey';
+        @include box-shadow(0 0 0 1px $primary-color);
+      }
+    }
+
+    button {
+      @include button-styles;
+      background-color: '#fff';
+      &:hover {
+        @include button-hover-styles;
+      }
+    }
+  }
+  
+  .footer-links a {
+    color: 'black';
+    &:hover {
+      color: '#000';
+    }
+  }
+  
+  /* .footer-social {
+    // Social icons styles
+  } */
+
+  hr {
+    border-color: lighten('#fff', 10%);
+  }
+
+  .copy-right {
+    color: darken('#fff', 10%);
+  }
+}

@@ -1,0 +1,89 @@
+.calender-parent .rdrMonthPicker {
+  margin: 0%;
+}
+.calender-parent .rdrMonthAndYearPickers select {
+  background: #fff;
+  padding: 0%;
+  color: #344054;
+  font-size: 16px;
+  font-weight: 700;
+}
+.calender-parent .rdrNextPrevButton {
+  width: auto;
+  background: #fff;
+}
+.calender-parent .rdrNextPrevButton:hover {
+  background: #fff;
+}
+.calender-parent .rdrCalendarWrapper {
+  border: 1px solid #eaecf0;
+  border-radius: 12px;
+  box-shadow: " 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08)";
+  width: 328px;
+  padding: 20px 24px;
+}
+
+.calender-parent .rdrMonth {
+  padding: 0%;
+  width: 280px;
+}
+
+.calender-parent .rdrMonthAndYearWrapper {
+  width: 280px;
+  height: 36px;
+  padding-top: 0;
+}
+.calender-parent .rdrWeekDays {
+  width: 280px;
+  height: 40px;
+}
+.calender-parent .rdrWeekDay {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #344054;
+  font-size: 14px;
+  font-weight: 500;
+}
+.calender-parent .rdrDays {
+  width: 280px;
+}
+.calender-parent .rdrPprevButton i {
+  background-image: url("/src/assets/icons/calenderLArrow.svg") !important;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background: transparent;
+}
+.calender-parent .rdrNextButton i {
+  background-image: url("/src/assets/icons/calenderRArrow.svg") !important;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background: transparent;
+}
+.calender-parent .rdrDay,
+.calender-parent .rdrDayNumber span {
+  height: 40px;
+  color: #667085;
+  font-size: 14px;
+  font-weight: 400;
+}
+.calender-parent .rdrDay:hover,
+.calender-parent .rdrDayNumber:hover,
+.calender-parent .rdrDayNumber span:hover {
+  color: transparent;
+  background: #f2f4f7;
+  border-radius: 50%;
+  border: 0;
+}
+
+.calender-parent .rdrDayToday .rdrDayNumber span:after {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  bottom: 0px;
+}
